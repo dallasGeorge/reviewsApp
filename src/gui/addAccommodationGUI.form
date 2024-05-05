@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.addAccommodationGUI">
+  <grid id="27dc6" binding="addAccomm" layout-manager="GridLayoutManager" row-count="35" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="23" y="20" width="733" height="912"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2e60" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Όνομα:"/>
+        </properties>
+      </component>
+      <component id="8e36c" class="javax.swing.JTextField" binding="textFieldName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a2eb6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Περιγραφή:"/>
+        </properties>
+      </component>
+      <component id="e71db" class="javax.swing.JTextField" binding="textFieldDescription">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="122b4" class="javax.swing.JRadioButton" binding="hotelButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ξενοδοχείο"/>
+        </properties>
+      </component>
+      <component id="a2473" class="javax.swing.JRadioButton" binding="appartmentButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Διαμέρισμα"/>
+        </properties>
+      </component>
+      <component id="de91d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Τύπος Καταλήματος:"/>
+        </properties>
+      </component>
+      <component id="d70a2" class="javax.swing.JRadioButton" binding="duplexButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Μεζονέτα"/>
+        </properties>
+      </component>
+      <component id="7f365" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Διεύθυνση:"/>
+        </properties>
+      </component>
+      <component id="ed29e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tοποθεσία"/>
+        </properties>
+      </component>
+      <component id="87b31" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πόλη:"/>
+        </properties>
+      </component>
+      <component id="be915" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ταχυδρομικός κώδικας:"/>
+        </properties>
+      </component>
+      <component id="dfae0" class="javax.swing.JTextField" binding="textFieldAdress">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="66d3c" class="javax.swing.JTextField" binding="textFieldCity">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="74b17" class="javax.swing.JTextField" binding="textFieldPostalCode">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="a93f1">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b90ab" class="javax.swing.JRadioButton" binding="port">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα στο λιμάνι"/>
+        </properties>
+      </component>
+      <component id="1beff" class="javax.swing.JRadioButton" binding="mountain">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα στο βουνό"/>
+        </properties>
+      </component>
+      <component id="10047" class="javax.swing.JRadioButton" binding="road">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα στον δρόμο"/>
+        </properties>
+      </component>
+      <component id="95a6b" class="javax.swing.JRadioButton" binding="beach">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα σε παραλία"/>
+        </properties>
+      </component>
+      <component id="b5ae6" class="javax.swing.JRadioButton" binding="sea">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα στη θάλασσα"/>
+        </properties>
+      </component>
+      <component id="23c63" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα:"/>
+        </properties>
+      </component>
+      <component id="bcbe1" class="javax.swing.JRadioButton" binding="pool">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέα σε πισίνα"/>
+        </properties>
+      </component>
+      <component id="dce7c" class="javax.swing.JRadioButton" binding="oven">
+        <constraints>
+          <grid row="25" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Κουζίνα"/>
+        </properties>
+      </component>
+      <component id="971a2" class="javax.swing.JRadioButton" binding="fridge">
+        <constraints>
+          <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ψυγείο"/>
+        </properties>
+      </component>
+      <component id="903d6" class="javax.swing.JRadioButton" binding="microwave">
+        <constraints>
+          <grid row="25" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Φούρνος μικροκυμάτων"/>
+        </properties>
+      </component>
+      <component id="aeac" class="javax.swing.JRadioButton" binding="acButton">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Κλιματισμός"/>
+        </properties>
+      </component>
+      <component id="26481" class="javax.swing.JRadioButton" binding="centralHeating">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Κεντρική θέρμανση"/>
+        </properties>
+      </component>
+      <component id="ee3bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mπάνιο:"/>
+        </properties>
+      </component>
+      <component id="f4358" class="javax.swing.JRadioButton" binding="fireplace">
+        <constraints>
+          <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Εσωτερικό τζάκι"/>
+        </properties>
+      </component>
+      <component id="a260f" class="javax.swing.JRadioButton" binding="hairDryer">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πιστολάκι μαλλιών"/>
+        </properties>
+      </component>
+      <component id="e22b2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πλύσιμο ρούχων:"/>
+        </properties>
+      </component>
+      <component id="b1a85" class="javax.swing.JRadioButton" binding="clothesWasher">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πλυντήριο ρούχων"/>
+        </properties>
+      </component>
+      <component id="cc45f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ψυχαγωγία:"/>
+        </properties>
+      </component>
+      <component id="d6f56" class="javax.swing.JRadioButton" binding="tv">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Τηλεόραση"/>
+        </properties>
+      </component>
+      <component id="3a60f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Θέρμανση και κλιματισμός:"/>
+        </properties>
+      </component>
+      <component id="db6f8" class="javax.swing.JRadioButton" binding="dryer">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Στεγνωτήριο"/>
+        </properties>
+      </component>
+      <component id="1cd0b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Διαδίκτυο:"/>
+        </properties>
+      </component>
+      <component id="56299" class="javax.swing.JRadioButton" binding="wifi">
+        <constraints>
+          <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Wifi"/>
+        </properties>
+      </component>
+      <component id="ecb4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Κουζίνα και τραπεζαρία:"/>
+        </properties>
+      </component>
+      <component id="22b7" class="javax.swing.JRadioButton" binding="ethernet">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ethernet"/>
+        </properties>
+      </component>
+      <component id="76b7c" class="javax.swing.JRadioButton" binding="coffeeMachine">
+        <constraints>
+          <grid row="27" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Καφετιέρα"/>
+        </properties>
+      </component>
+      <component id="8c59b" class="javax.swing.JRadioButton" binding="cookware">
+        <constraints>
+          <grid row="26" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Μαγειρικά είδη"/>
+        </properties>
+      </component>
+      <component id="af450" class="javax.swing.JRadioButton" binding="platesNCutlery">
+        <constraints>
+          <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πιάτα και μαχαιροπίρουνα"/>
+        </properties>
+      </component>
+      <component id="520e0" class="javax.swing.JRadioButton" binding="dishWasher">
+        <constraints>
+          <grid row="26" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Πλυντήριο πιάτων"/>
+        </properties>
+      </component>
+      <component id="f1b7f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="28" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Εξωτερικός χώρος:"/>
+        </properties>
+      </component>
+      <component id="7f65a" class="javax.swing.JRadioButton" binding="balcony">
+        <constraints>
+          <grid row="29" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Μπαλκόνι"/>
+        </properties>
+      </component>
+      <component id="f5852" class="javax.swing.JRadioButton" binding="yard">
+        <constraints>
+          <grid row="29" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Αυλή"/>
+        </properties>
+      </component>
+      <component id="12651" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Παροχές Καταλύματος:"/>
+        </properties>
+      </component>
+      <component id="bd979" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="30" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Χώρος στάθμευσης:"/>
+        </properties>
+      </component>
+      <component id="45909" class="javax.swing.JRadioButton" binding="freeParking">
+        <constraints>
+          <grid row="31" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Δωρεάν πάρκινγκ στο δρόμο"/>
+        </properties>
+      </component>
+      <component id="1b046" class="javax.swing.JRadioButton" binding="freeGarageParking">
+        <constraints>
+          <grid row="32" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Δωρεάν χώρος στάθμευσης &#10;στην ιδιοκτησία"/>
+        </properties>
+      </component>
+      <component id="9bf36" class="javax.swing.JButton" binding="addAccommodationButton">
+        <constraints>
+          <grid row="33" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Καταχώρηση καταλύματος"/>
+        </properties>
+      </component>
+      <vspacer id="ecb58">
+        <constraints>
+          <grid row="34" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="AccommodationΤype">
+      <member id="a2473"/>
+      <member id="122b4"/>
+      <member id="d70a2"/>
+    </group>
+  </buttonGroups>
+</form>
